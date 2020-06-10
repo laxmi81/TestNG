@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SanitySuite">
+  <test  name="Home_Test">
+  <groups>
+  <run>
+  <include name="sanity"/>
+  </run>
+  </groups>
+    <classes>
+      
+      <class name="Demo_testNg.Tc_Home_group"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Login_Test">
+  <groups>
+  <run>
+  <include name="sanity"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="Demo_testNg.TC_Login_group"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- RegressionSuite -->

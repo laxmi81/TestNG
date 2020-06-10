@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SanitySuite" duration-ms="54" started-at="2020-06-10T22:39:40Z" finished-at="2020-06-10T22:39:40Z">
+    <groups>
+      <group name="sanity">
+        <method signature="Tc_Home_group.TC_Home_01()[pri:0, instance:Demo_testNg.Tc_Home_group@593a6726]" name="TC_Home_01" class="Demo_testNg.Tc_Home_group"/>
+        <method signature="TC_Login_group.Tc_Login_01()[pri:0, instance:Demo_testNg.TC_Login_group@4c361f63]" name="Tc_Login_01" class="Demo_testNg.TC_Login_group"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Home_Test" duration-ms="34" started-at="2020-06-10T22:39:40Z" finished-at="2020-06-10T22:39:40Z">
+      <class name="Demo_testNg.Tc_Home_group">
+        <test-method status="PASS" signature="TC_Home_01()[pri:0, instance:Demo_testNg.Tc_Home_group@593a6726]" name="TC_Home_01" duration-ms="10" started-at="2020-06-10T22:39:40Z" finished-at="2020-06-10T22:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Home_01 -->
+      </class> <!-- Demo_testNg.Tc_Home_group -->
+    </test> <!-- Home_Test -->
+    <test name="Login_Test" duration-ms="3" started-at="2020-06-10T22:39:40Z" finished-at="2020-06-10T22:39:40Z">
+      <class name="Demo_testNg.TC_Login_group">
+        <test-method status="PASS" signature="Tc_Login_01()[pri:0, instance:Demo_testNg.TC_Login_group@4c361f63]" name="Tc_Login_01" duration-ms="2" started-at="2020-06-10T22:39:40Z" finished-at="2020-06-10T22:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Login_01 -->
+      </class> <!-- Demo_testNg.TC_Login_group -->
+    </test> <!-- Login_Test -->
+  </suite> <!-- SanitySuite -->
+</testng-results>

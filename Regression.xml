@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+  <test  name="Home_Test">
+    <classes>
+      
+      <class name="Demo_testNg.TC_Home"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Login_Test">
+    <classes>
+      <class name="Demo_testNg.TC_Login">
+      <methods>
+      <!-- <include name="Tc_Login_01"/>
+       <include name="Tc_Login_02"/> -->
+      <exclude name="Tc_Login_03"/>
+      
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- RegressionSuite -->
